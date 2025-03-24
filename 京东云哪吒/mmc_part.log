@@ -1,0 +1,112 @@
+IPQ5018# mmc part
+
+Partition Map for MMC device 0  --   Partition Type: EFI
+
+Part    Start LBA       End LBA         Name
+        Attributes
+        Type GUID
+        Partition GUID
+  1     0x00000022      0x00000221      "0:SBL1"
+        attrs:  0x0000000000000000
+        type:   dea0ba2c-cbdd-4805-b4f9-f428251c3e98
+        guid:   8c874785-3d22-0493-c604-8bc1fbd397e3
+  2     0x00000222      0x00000321      "0:BOOTCONFIG"
+        attrs:  0x0000000000000000
+        type:   2b7d04ff-31f0-4e6a-be9a-da50314dad58
+        guid:   b569e05c-37d4-259b-0a6b-ccc054522b7b
+  3     0x00000322      0x00000421      "0:BOOTCONFIG1"
+        attrs:  0x0000000000000000
+        type:   7bd25378-5c39-11e5-8a77-40a8f05f1418
+        guid:   dbd5be3d-afec-db61-92dc-ab894318564b
+  4     0x00000422      0x00000921      "0:QSEE"
+        attrs:  0x0000000000000000
+        type:   a053aa7f-40b8-4b1c-ba08-2f68ac71a4f4
+        guid:   39e26905-7fe2-359d-72cb-74afcaae43b8
+  5     0x00000922      0x00000e21      "0:QSEE_1"
+        attrs:  0x0000000000000000
+        type:   a6dd74a1-c8bf-4dbc-ae39-62b8e78c4038
+        guid:   53a4f5ef-2d66-6fd2-a480-67907375070f
+  6     0x00000e22      0x00000f21      "0:DEVCFG"
+        attrs:  0x0000000000000000
+        type:   f65d4b16-343d-4e25-aafc-be99b6556a6d
+        guid:   ea1a35b2-ef76-1335-e538-78e13d818eba
+  7     0x00000f22      0x00001021      "0:DEVCFG_1"
+        attrs:  0x0000000000000000
+        type:   48bfa451-9443-46f7-b400-892a6b1bfc16
+        guid:   bf6c452d-7028-f97c-e13b-f0512b46e4aa
+  8     0x00001022      0x00001121      "0:CDT"
+        attrs:  0x0000000000000000
+        type:   a19f205f-ccd8-4b6d-8f1e-2d9bc24cffb1
+        guid:   517f3b4b-4adc-04a4-5ad5-470bfea35c77
+  9     0x00001122      0x00001221      "0:CDT_1"
+        attrs:  0x0000000000000000
+        type:   7a795379-c250-4282-a2c7-fc4e13f4a43d
+        guid:   26c59912-8da2-1e73-3e18-994e3a874333
+ 10     0x00001222      0x00001421      "0:APPSBLENV"
+        attrs:  0x0000000000000000
+        type:   300ffdcd-22e0-47e7-9a23-f16ed9382387
+        guid:   7cb406df-dbf7-7b3a-0e81-c5b4b23dc6be
+ 11     0x00001422      0x00001921      "0:APPSBL"
+        attrs:  0x0000000000000000
+        type:   400ffdcd-22e0-47e7-9a23-f16ed9382388
+        guid:   af5f3701-dcab-8b23-2ba1-a22ee33414d0
+ 12     0x00001922      0x00001e21      "0:APPSBL_1"
+        attrs:  0x0000000000000000
+        type:   c126787d-3eef-444c-9e43-feff3f103e22
+        guid:   cae7c0b8-8ce2-b7ae-701f-a25b64aef3a6
+ 13     0x00001e22      0x00002221      "0:ART"
+        attrs:  0x0000000000000000
+        type:   a72e50c1-d37c-429d-9620-35fca612b9a8
+        guid:   379821af-a633-16c3-34ab-7790056ef207
+ 14     0x00002222      0x00005221      "0:WIFIFW"
+        attrs:  0x0000000000000000
+        type:   888d8069-8d27-40a8-95a9-6006e1ce9b3b
+        guid:   23529a83-c779-07d7-9ef6-c2764830d354
+ 15     0x00005222      0x00008221      "0:WIFIFW_1"
+        attrs:  0x0000000000000000
+        type:   981476f5-5cd7-42db-9ce9-87b3a31aadbd
+        guid:   b0939ddf-59d0-0c00-26ba-e801c443b8ab
+ 16     0x00008222      0x00008421      "0:BTFW"
+        attrs:  0x0000000000000000
+        type:   027d14ca-36e4-4953-8ca8-82f17a20a26f
+        guid:   962d3144-7162-ce8d-6498-2e8f9bdd1277
+ 17     0x00008422      0x00008621      "0:BTFW_1"
+        attrs:  0x0000000000000000
+        type:   be32961b-a9dd-4eb9-8720-bdacb5526282
+        guid:   f4cc47c6-8c46-a8a5-f8ef-5dd724d9dbff
+ 18     0x00008622      0x0000b621      "0:HLOS"
+        attrs:  0x0000000000000000
+        type:   b51f2982-3ebe-46de-8721-ee641e1f9997
+        guid:   1ee2f3c6-7882-6aa1-1fc0-1936b31c8742
+ 19     0x0000b622      0x0000e621      "0:HLOS_1"
+        attrs:  0x0000000000000000
+        type:   a71da577-7f81-4626-b4a2-e377f9174525
+        guid:   c413c696-92a9-9535-b16e-f4260725e46e
+ 20     0x0000e622      0x0002c621      "rootfs"
+        attrs:  0x0000000000000000
+        type:   98d2248d-7140-449f-a954-39d67bd6c3b4
+        guid:   2ae1cb24-ca26-4cf9-4572-15c99889371d
+ 21     0x0002c622      0x0004a621      "rootfs_1"
+        attrs:  0x0000000000000000
+        type:   5647b280-dc2a-485d-9913-cf53ac40fa32
+        guid:   def25891-4e76-8e4e-ee49-819137a75ea6
+ 22     0x0004a622      0x0008a621      "rootfs_data"
+        attrs:  0x0000000000000000
+        type:   ab1760da-a8bb-4d6f-98d2-9ad3ab9009cd
+        guid:   a07506c5-7269-6c37-b9ec-a3a0305d4d59
+ 23     0x0008a622      0x0028a621      "plugin"
+        attrs:  0x0000000000000000
+        type:   0cce190e-c1e9-4ced-9e1d-590a75c5205c
+        guid:   5c2851b5-a8e3-3cea-f6e2-495bc2135cbb
+ 24     0x0028a622      0x002ca621      "log"
+        attrs:  0x0000000000000000
+        type:   0cce190e-c1e9-4ced-9e1d-590a75c5205c
+        guid:   b7472d58-81fb-6f88-dc28-2b91cfa95894
+ 25     0x002ca622      0x003ca621      "swap"
+        attrs:  0x0000000000000000
+        type:   0cce190e-c1e9-4ced-9e1d-590a75c5205c
+        guid:   936c45fa-faf5-954c-de80-a11decaafd9e
+ 26     0x003ca622      0x0723bfde      "storage"
+        attrs:  0x0000000000000000
+        type:   0cce190e-c1e9-4ced-9e1d-590a75c5205c
+        guid:   70cc5bad-6c51-402d-c7fb-ec7de9991336
